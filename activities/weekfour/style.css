@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 225, 195);
+}
+
+footer p{
+    color: cadetblue;
+}
+
+
+#numbertwo {
+    color: lightcoral;
+}
+
+.blue {
+    color: blue;
+}
+
+.bigger {
+    font-size: 18pt;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.green{
+    color: green;
+    background-color: rgb(195, 201, 142);
+}
