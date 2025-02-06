@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    background-color: #F2EBBF;
+}
+
+
+.navigation{
+    background-color:#F3B562;
+    color: aliceblue;
+
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F06060;
+}
+
+footer{
+    color: rgb(96, 127, 127);
+    font-weight:lighter;
+    background-color: #F3B562;
+    
+}
+
+
+h3{
+    color: #69a295;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.list{
+    font-weight: bolder;
+    color: #5C4B51;
+}
+
+.phead{
+    font-weight: bolder;
+    color: #5C4B51;
+}
+
+.spec{
+    color:#69a295
+}
+
+.par{
+    color:#5C4B51
+}
+
+.desc{
+    color: #855d6a;
+}
+
+dd{
+    color:#855d6a
+}
+ #idd{
+    color: #F06060;
+ }
