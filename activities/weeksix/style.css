@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:url('paper.jpg');
+}
+
+h1{
+    color: aliceblue;
+}
+.border{
+    background-color:rgb(48, 17, 3);
+    color: aliceblue;
+}
+
+h2{
+    color: rgb(61, 45, 23);
+}
+footer{
+    background-color: rgb(48, 17, 3);
+    color:antiquewhite
+}
+
+div{
+    background-color:rgb(209, 231, 167);
+}
+
+.list{
+    list-style-image: url('pin.png');
+}
