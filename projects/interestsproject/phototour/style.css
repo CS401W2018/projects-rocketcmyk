@@ -1,3 +1,58 @@
+header{
+   
+}
+
 body{
+    background-image: url('fruit.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background: url('uk.jpg') no-repeat top right;
     
+}
+
+nav{
+    background-color: rgb(204, 95, 22);
+    color: aliceblue;
+  
+}
+
+footer{
+    color: rgb(56, 89, 119);
+}
+
+p{
+    color:rgb(56, 89, 119);
+}
+.list{
+    list-style-image: url('carzz.png');
+}
+
+li{
+    color:rgb(46, 101, 127);
+}
+
+#title{
+    font-family: Luminari, fantasy;
+    color: rgb(194, 35, 35);
+}
+
+.tour{
+    font-weight: bolder;
+}
+
+.titles{
+    color:rgb(46, 101, 127)
+}
+
+.navigator{
+    color: rgb(107, 34, 17);
+    font-size:larger;
+    font-weight: bolder;
+
+}
+
+a{
+    color: aliceblue;
 }
