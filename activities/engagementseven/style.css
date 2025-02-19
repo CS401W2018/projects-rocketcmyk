@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flower{
+    width: 100px;
+    border:thin solid #000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.flower img{
+    width: 100px;
+}
+
+.floatimg{
+    float:right;
+}
+
+.clear{
+    clear:both
+}
+
+.moveimg{
+    position:relative;
+    left: 457px;
+    top: 10px
+}
+
+.abs{
+    position:absolute;
+    left: 465px;
+    bottom: 100px;
+
+
+}
+
+.flowerfix{
+    position:fixed;
+    right:465px;
+    top: 100px;
+
+}
+
+nav a{
+    display: block;
+    background-color: bisque;
+    padding: 10px 5px;
+    border-bottom: thin solid #FFFF;
+}
