@@ -48,3 +48,7 @@ nav a{
     padding: 10px 5px;
     border-bottom: thin solid #FFFF;
 }
+
+.q{
+    font-weight: bolder;
+}
