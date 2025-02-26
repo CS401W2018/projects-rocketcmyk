@@ -20,3 +20,14 @@ body{
 .q{
     font-weight: bolder;
 }
+
+nav{
+    display:flex;
+    background-color:burlywood ;
+    justify-content:space-evenly;
+}
+nav a{
+    display: block;
+    background-color:rgb(155, 118, 190) ;
+    padding: 10px;
+}
