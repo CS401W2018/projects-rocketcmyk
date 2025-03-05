@@ -5,7 +5,7 @@ body{
 
 .card{
     border: thin solid #000;
-    box-shadow: 3px 3px 3px #a08c8c;
+    box-shadow: 3px 3px 3px #494444;
     width: 150px;
 }
 
@@ -18,7 +18,7 @@ body{
 }
 
 header{
-    background-color: blueviolet;
+    background-color: rgb(185, 190, 235);
 }
 
 header h1{
@@ -26,7 +26,7 @@ header h1{
 }
 
 nav{
-    background-color: burlywood;
+    background-color: rgb(185, 146, 183);
     display:flex;
     justify-content:space-evenly;
     
@@ -35,7 +35,7 @@ nav{
 nav a{
     display: block;
     padding: 6px;
-    background-color:coral;
+    background-color:rgb(150, 57, 128);
     color:aliceblue;
     text-decoration: none;
     border-radius: 5px;
@@ -57,4 +57,33 @@ nav a:hover{
 
 .q{
     font-weight: bolder;
+}
+
+
+@media ONLY screen AND (max-width:500px){
+    body{
+        background-color: rgb(216, 200, 210);
+        .row{
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .card{
+            width:60%;
+            margin-bottom: 15px;
+        }
+        .feature{
+            order: -1;
+        }
+
+    }
+}
+
+@media ONLY screen AND (max-width:500px){
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        border-radius: 0%;
+    }
 }
