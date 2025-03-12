@@ -2,6 +2,44 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.titles{
-    font-weight: bold;
+.tab{
+    /*border:thin solid #000;*/
+    width:100% ;
+    /*background-color: rgb(161, 184, 184);
+    box-shadow: 3px 3px 3px rgba(30,30,30,0.5);*/
+    caption-side: bottom;
+    border-spacing: 3px; 
+    border-collapse: collapse;
+    vertical-align:middle
+}
+
+.tab th, .tab td{
+    /*border: thin solid #000;*/
+    padding: 5px;
+   /* background-color: aliceblue;*/
+}
+
+.tab th{
+    /*background-color: rgb(216, 209, 247);*/
+}
+
+.tab thead th{
+    background-color: rgb(67, 132, 147);
+    color:aliceblue
+}
+
+.tab tfoot th{
+    background-color: rgb(111, 189, 189);
+}
+
+.odd{
+    background-color: rgb(242, 242, 222);
+}
+
+.tab tbody tr:nth-child(even){
+    background-color: rgb(225, 217, 208);
+}
+
+/*main p::first-letter{
+
 }

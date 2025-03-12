@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -15,7 +16,8 @@
     </nav>
     <main>
         <h1> Tables </h1>
-        <table border="1">
+        <table class="tab">
+            <caption>Class Schedule</caption>
             <thead>
                 <th> Department</th>
                 <th> Number</th>
@@ -27,7 +29,7 @@
                 <tr>
                     <th colspan="5">Winter 2025</th>
                 </tr>
-                <tr>
+                <tr class="odd">
                     <td> CS </td>
                     <td rowspan="2">140</td>
                     <td> 12:00 PM-12:50 PM  </td>
@@ -35,14 +37,14 @@
                     <td> 3</td>
                 </tr>
 
-                <tr>
+                <tr class="even">
                     <td> CS </td>
                     <td> 11:00 AM-11:50 AM </td>
                     <td> P3</td>
                     <td> 3</td>
                 </tr>
 
-                <tr>
+                <tr class="odd">
                     <td> ENGL </td>
                     <td>101</td>
                     <td> 10:00 AM-10:50 AM </td>
@@ -53,7 +55,7 @@
                     <th id="spring2025" colspan="5">Spring 2025</th>
                 </tr>
 
-                <tr>
+                <tr class="odd">
                     <td>ENGL</td>
                     <td> 315</td>
                     <td> 9:00 AM - 9:50 AM</td>
@@ -68,14 +70,13 @@
                 </tr>
             </tfoot>
         
-            </table>
+        </table>
         <h2> Questions</h2>
-            <p>1. When do you use a table?</p>
-                <p>- A table can be used to present data in an organized manner</p>
-            <p>2. When do you not use a table?</p>
-                <p>- When data does not need to be visualized or if it is not appropriate to use.</p>
-            <p>3. When do you need to do extra work for table accessibility?</p>
-                <p>- This is needed especially in creating webpages that can be used with screen readers. Tables need to have clear associations with its cells and corresponding headers.</p>
+            <p>1. Why don't we use the border attribute?</p>
+                <p>- Because the border attribute is considered deprecated which means its no longer used. If ran through a validator it will show an error.</p>
+            <p>2. What is the easiest way to color every other row a different color?</p>
+                <p>- The easiest way to do it is to add a class or ID to an element, or you can select the entire specific element you want to color and edit its background color in CSS. This can also be done by adding a pseudoclass that selects odd or even rows.</p>
+           
     </main>
     <footer>
         <p>&copy; 2025 Evita Abina</p>
