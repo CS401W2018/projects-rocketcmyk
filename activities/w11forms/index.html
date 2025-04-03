@@ -18,10 +18,16 @@
     </nav>
     <br>
     <main>
-        <form action="processing.html" method="get">
-            <div class="form-row"> Full Name: <input type="text" name="fullname" id="fname" value="CS140">
+        <fieldset>
+        <legend>Create Account</legend>
+        <form action="processing.html" method="get" id="myForm">
+            
+    
+            <div class="form-row">
+                <label for="name">Full Name</label>
+                <input type="text" name="email" id="fullname" placeholder="Your name here"> 
             </div>
-        
+
             <div class="form-row">
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" placeholder="youremail@email.com"> 
@@ -32,7 +38,7 @@
                 <input type="password" name="password" id="password" required>
             </div>
            
-
+            <div class="form-row">
             <label for="state">State</label>
             <select name="state" id="state">
                 <option value="blank"></option>
@@ -43,32 +49,66 @@
            </div>
          
 
-           <div>
-            Year in School:
+           <div class="radio-row">
+            <div class="form-space">Year in school:</div>
+            <label>
+                <input type="radio" name="year" value="freshman">Freshman
+                <input type="radio" name="year" value="soph">Sophomore
+                <input type="radio" name="year" value="Jr">Junior
+                <input type="radio" name="year" value="sen">Senior
+            </label>
         </div>
-            <label><input type="radio" name=year value="freshmen">Freshmen</label>
-            <label><input type="radio" name=year value="soph">Sophomore</label>
-           <label><input type="radio" name=year value="jun">Junior</label>
-           <label><input type="radio" name=year value="sen">Senior</label>
-           </div>
-           
-           <div class="form-row">
-            <input type="submit">
+        
+
+        <div class="form-row">
+            <label><input type="checkbox" name="remember" id="remember">Remember me</label>
         </div>
+        
+        
 
            <div class="form-row">
         
+        </div>
+
+
+        </div>
+        
+
+        </div>
+
+        <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </div>
+         
+         
+          <div class="form-row">
+            <label></label>
+            <input type="submit" value="Submit">
+          </div>
+
         </form>
-        <h2> Questions</h2>
-        <p>1. The form tag has an "action" attribute. What does it do?</p>
-            <p>- The action attribute tells the browser where to send the data the user inputs.</p>
-        <p>2. The form tag has a "method" attribute. What does it do?</p>
-            <p>- The method attribute tells which http method to send the data to the server.</p>
-        <p>3. What is the difference between a "POST" and a "GET"?</p>
-            <p> POST is when the data the that is input is not shown in the url, it is generally considered a more secure way when creating forms for users. Meanwhile GET is inputs the users data on the URL as parameters, because it is visible, it is best to use for non-sensitive data.  </p>
-    </main>
+        
+       
+            
+    </fieldset> 
+    <h2> Questions</h2>
+
+</main>
     <footer>
-        <p>&copy; 2025 Evita Abina</p></footer>
+        <p>&copy; 2025 Evita Abina</p>
+    </footer>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();   
+            alert("Form Submitted");
+            const fullname = document.getElementById('fullname').value; 
+        
+             console.log(fullname)
+
+        });
+    </script>
     
 </body>
 </html>

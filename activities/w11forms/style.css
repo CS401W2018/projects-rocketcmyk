@@ -1,3 +1,68 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.form-row{
+    display:flex;
+    gap:10px;
+    margin: 10px 0;
+    
+
+}
+.radio-row{
+    display: flex;
+    gap:10px;
+    text-align: right;
+}
+.form-row label{
+    width: 150px;
+    text-align:right;
+    
+    
+}
+.form-space{
+    width:150px;
+    text-align: right;
+}
+fieldset{
+    background-color: rgb(156, 206, 255);
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+.form-row input{
+    padding: 10px 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:none
+}
+@media only screen AND (max-width: 600px){
+    .form-row{
+        flex-direction: column;
+    }
+    .form-row label{
+        text-align: right;
+    }
+
+}
+legend{
+    background-color: gold;
+    color:rgb(157, 57, 57);
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.form-row input:not([type="submit"]):focus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(127, 140, 182);
+    padding:5px 10px;
+}
+.form-row input:not([type="submit"]){
+    padding:5px 10px;
+
+}
+.form-row input[type="submit"]{
+   
+    padding:10px;
+    border: 0cap;
+    background-color: gold;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
