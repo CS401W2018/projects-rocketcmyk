@@ -57,7 +57,7 @@ nav a{
 
 .iconleft{
     position: static;
-    margin-left: 180px;
+    margin-right: 10px;
     height: auto;
 
 }
@@ -92,7 +92,7 @@ footer{
     margin-right: auto;
     border: thin solid #ece8e2;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #090909;
     padding: 30px
     
 }
@@ -109,7 +109,7 @@ footer{
     border-radius: 5px;
     width: 900px;
     margin: auto;
-    box-shadow: 5px 5px 10px #131313;
+    box-shadow: 5px 5px 10px #202020;
     
     
 
@@ -118,3 +118,9 @@ footer{
 .nl{
     padding: 20px
 }
+
+
+nav a:hover {
+    background-color: rgb(23, 1, 102); /* Lighter blue */
+    color:rgb(244, 195, 62);
+} 
