@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.all{
+    display: flex;
+}
+
+.imgs{
+    display: flex;
+}
+
+
+.coltwo{
+    display:flex
+}
+
+.c{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+@media print {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        background: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        display: none; 
+    }
+
+    .all,
+    .imgs,
+    .coltwo {
+        display: block;
+    }
+
+    .c {
+        box-shadow: none;
+        padding: 10px;
+        margin-bottom: 15px;
+        page-break-inside: avoid;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+}
