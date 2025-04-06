@@ -1,0 +1,43 @@
+.all{
+    display: flex;
+}
+
+
+.text{
+    width: 200px;
+    margin-left: 100px
+}
+
+
+table{
+    width: 600px;
+    border: thin solid;
+}
+
+th{
+    border: thin solid;
+}
+
+td{
+    border: thin solid
+}
+
+nav{
+    margin-bottom: 10px;
+    background-color: cadetblue;
+}
+
+.odd{
+    background-color: aqua;
+}
+
+.even{
+    background-color:yellow;
+}
+
+thead{
+    background-color: darkcyan;
+}
+
+
+
