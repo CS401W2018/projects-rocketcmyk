@@ -16,13 +16,17 @@ h2{
     
 }
 
+.upbutton{
+    background-color: #0d113d;
+}
 header{
-    
+    display: flex;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
     border-radius: 40px;
-    padding: 10px 1000px 0px px; 
+    align-items: center;
+    padding: 10px 1000px 0px 0px; 
     height: auto;
     text-shadow: 2px 2px 4px #000000;
     margin-bottom: 0px;

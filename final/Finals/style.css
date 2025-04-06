@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(40, 14, 76);
+}
+
+header{
+    width:350px;
+    margin:px 40px 3px 200px 3;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    font-size:large;
+    color:aliceblue;
+    border-radius: 30px;
+    
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 64px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+    background-color: rgb(192, 146, 236);
+    width: 400px;
+    margin: 80px 10px 3px 80px;
+    text-align: center;
+}
+
+h3 a{
+    background-color: rgb(36, 36, 68);
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px #121212;
+
+}
+
+nav{
+    
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    
+
+}
+
+nav a{
+    background-color: rgb(244, 195, 62);
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-right: 20px;
+    display: inline-block;
+    color: rgb(35, 47, 108);
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px #262626;
+  
+    
+}
+
+figure{
+    border:thick solid  #0ca79d;
+    width: 475px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#wrapper{
+    width: 900px;
+    margin: 0 auto;
+   
+}
+
+footer{
+    padding-bottom: 0px;
+    background-color: rgb(36, 36, 68);
+    color: aliceblue;
+    
+    bottom: 0;     
+    left: 0;       
+    width: 100%; 
+    
+}
+
+
+.clear{
+    clear:both
+}
+
+
+.bgimage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+nav a:hover {
+    background-color:rgb(36, 36, 68);
+    color:rgb(190, 168, 79);
+
+} 
+
+h3 a:hover {
+    background-color:rgb(244, 195, 62);
+    color:rgb(36, 36, 68)
+} 
+
+nav a.current{
+    background-color:rgb(36, 36, 68);
+    color:rgb(244, 195, 62)
+}
