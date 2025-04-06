@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    background-color: rgb(215, 254, 85);
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+.rowone{
+    display: flex;
+
+}
+
+.lorem{
+    margin: 20px;
+}
+.imgs{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgrow{
+    margin: 10px;
+
+    
+}
+
+.nature{
+    margin: 10px;
+    border: thin solid ;
+    box-shadow: 5px 5px 10px #575656;
+    width: 188px
+
+
+    
+}
+
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4,auto)
+}
+
+
+.rowtwo{
+    margin:30px;
+    text-align: center;
+}
