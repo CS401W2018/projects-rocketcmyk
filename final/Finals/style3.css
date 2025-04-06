@@ -198,3 +198,92 @@ body{
 .tab tbody tr:nth-child(even){
     background-color: rgb(225, 217, 208);
 }
+
+@media only screen and (max-width: 360px) {
+
+    body {
+        padding: 0 10px;
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+
+    #wrapper {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    h1, .title {
+        font-size: 32px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        width: 90%;
+        padding: 12px;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    h2 {
+        width: 100%;
+        margin: 20px 0;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    figure {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .photo, .photo5, .photo8 {
+        margin-left: 0;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .tab {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .tab th, .tab td {
+        padding: 10px;
+    }
+
+    .cap {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    footer {
+        padding: 20px 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
