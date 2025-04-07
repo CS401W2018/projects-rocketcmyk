@@ -6,7 +6,10 @@ body{
     gap:10px;
     margin: 10px 0;
     
+}
 
+nav{
+    background-color: rgb(124, 143, 216);
 }
 .radio-row{
     display: flex;
@@ -38,8 +41,17 @@ fieldset{
         flex-direction: column;
     }
     .form-row label{
-        text-align: right;
+        text-align:left
     }
+    .radio-row .form-space{
+        text-align: left;
+    }
+
+    .radio-row label{
+        text-align: left;
+    }
+
+
 
 }
 legend{
