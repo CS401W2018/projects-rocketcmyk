@@ -8,10 +8,6 @@ body{
     
 }
 
-footer{
-    background-color: rgb(124, 143, 216);
-}
-
 nav{
     background-color: rgb(124, 143, 216);
 }
@@ -34,6 +30,7 @@ fieldset{
     background-color: rgb(156, 206, 255);
     color:rgb(255, 255, 255);
     padding: 10px 20px;
+    margin: 30px;
 }
 .form-row input{
     padding: 10px 20px;
@@ -82,3 +79,5 @@ legend{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
 }
+
+
