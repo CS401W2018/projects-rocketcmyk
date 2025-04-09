@@ -20,10 +20,15 @@ h1 {
 }
 
 h2 {
-  background-color: rgb(192, 146, 236);
-  width: 400px;
+  background-color:rgb(36, 36, 68);
+  color:aliceblue;
   margin: 80px 10px 3px 80px;
   text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #121212;
+
 }
 
 h3 a {
@@ -71,10 +76,19 @@ nav a.current {
 }
 
 figure {
-  border: thick solid #0ca79d;
-  width: 475px;
+  display: block;
+  align-items: center;
   margin-bottom: 100px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(13, 13, 13, 0.5);
+  border-radius: 30px;
+  margin-top: 50px;
+  
+  
+}
+
+.desc{
+  text-align: center;
+  color: aliceblue;
 }
 
 #wrapper {
@@ -157,4 +171,43 @@ footer {
   .bgimage {
     object-fit: cover;
   }
+}
+
+.hometext{
+  background-color:rgb(233, 233, 233);
+  padding: 30px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #3a3a3a;
+}
+
+.links{
+  text-decoration: none;
+}
+
+.feat1{
+  display: block;
+  margin: auto;
+  
+}
+
+.news{
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  width: 900px;
+  margin: auto;
+  box-shadow: 5px 5px 10px #202020;
+  padding:1px;
+
+  margin-top: 10px;
+ 
+}
+
+h3{
+  margin-left: 10px;
+}
+
+.nl{
+  margin-left: 10px;
 }
