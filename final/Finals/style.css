@@ -11,12 +11,16 @@ header {
   font-size: large;
   color: aliceblue;
   border-radius: 30px;
+
 }
+
 
 h1 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 64px;
   text-shadow: 2px 2px 4px #000000;
+  margin-top:auto
+  
 }
 
 h2 {
@@ -47,7 +51,6 @@ h3 a:hover {
 }
 
 nav {
-  margin-top: 40px;
   padding: 10px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;

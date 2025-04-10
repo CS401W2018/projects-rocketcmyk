@@ -262,7 +262,7 @@ nav a.current{
 
   .book{
     width: 200px;
-    background-color:rgb(228, 230, 231);
+    background-color:rgb(36, 36, 68);
     padding: 30px;
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -278,4 +278,5 @@ nav a.current{
   .booklink{
     text-decoration: none;
     text-align: center;
+    color: rgb(244, 195, 62);
   }
