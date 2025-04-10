@@ -211,3 +211,37 @@ h3{
 .nl{
   margin-left: 10px;
 }
+
+.title{
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 0PX;
+  TEXT-shadow: 5px 5px 10px #121212;
+
+}
+
+.maincont{
+  display: flex;
+}
+
+.mascot{
+  width: 300px;
+  border-radius: 120px;
+  margin-top: 40px;
+  box-shadow: 5px 5px 10px #202020;
+}
+
+.mainconttext{
+  margin-top: 40px;
+  background-color: #e0e0e0;
+  height: 250px;
+  margin: 30px;
+  padding: 30px;
+  margin-top: 80px;
+  border-radius: 30px;
+}
+
+h3{
+  font-size: 30px;
+  color: rgb(224, 171, 26);
+}
