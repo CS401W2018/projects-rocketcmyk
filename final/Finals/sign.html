@@ -29,44 +29,46 @@
         <p class="pagedesc"> Sign up to my Newsletter to get weekly updates on the newest Illustrations and art tips!</p>
 
         <fieldset>
-            <form action="processing.html" method="get" id="myForm"></form>
+            <h1 id="message"></h1>
+            <form action="processing.html" method="get" id="myForm">
 
-            <div class="form-row">
-                <label for="name">Full Name</label>
-                <input type="text" name="email" id="fullname" placeholder="Your Full Name here"> 
-            </div>
+                <div class="form-row">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="fullname" placeholder="Your Full Name here"> 
+                </div>
 
-            <div class="form-row">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="youremail@email.com"> 
-            </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="youremail@email.com"> 
+                </div>
 
-            <div class="form-row">
-                <label for="state">State</label>
-                <select name="state" id="state">
-                    <option value="blank" selected>--</option>
-                    <option value="CO">Colorado</option>
-                    <option value="HI"> Hawaii</option>
-                    <option value="UT">Utah</option>
-                    <option value="Others">Others</option>
-                </select>
-               </div>
+                <div class="form-row">
+                    <label for="state">State</label>
+                    <select name="state" id="state">
+                        <option value="blank" selected>--</option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI"> Hawaii</option>
+                        <option value="UT">Utah</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
 
-               <div class="radio-row">
-                <div class="form-space">Occupation:</div>
-                <label>
-                    <input type="radio" name="year" value="Hobbyst">Hobbyst
-                    <input type="radio" name="year" value="Student">Student
-                    <input type="radio" name="year" value="Teacher">Teacher
-                    <input type="radio" name="year" value="Professional">Professional
-                </label>
-            </div>
+                <div class="radio-row">
+                    <div class="form-space">Occupation:</div>
+                    <label>
+                        <input type="radio" name="occupation" value="Hobbyst">Hobbyst
+                        <input type="radio" name="occupation" value="Student">Student
+                        <input type="radio" name="occupation" value="Teacher">Teacher
+                        <input type="radio" name="occupation" value="Professional">Professional
+                    </label>
+                </div>
 
 
-            <div class="form-row">
-                <label>Click to send:</label>
-                <input type="submit" value="Sign Up">
-              </div>
+                <div class="form-row">
+                    <label></label>
+                    <input type="submit" value="Sign Up!">
+                </div>
+            </form>
               
         </fieldset>
 
@@ -74,7 +76,8 @@
 
     
 
-  <div class="clear"></div>
+    <div class="clear"></div>
+    <script src="script.js"></script>
 
 
     </main>
