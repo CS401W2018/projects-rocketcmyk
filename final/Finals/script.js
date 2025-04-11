@@ -4,6 +4,8 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const fullname = document.getElementById('fullname').value;
     const email = document.getElementById('email').value;
     const state = document.getElementById('state').value;
+    const password = document.getElementById('password').value;
+
 
     if (!fullname || !email) {
         alert("You need a name and an email.");
@@ -14,10 +16,11 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         name: fullname,
         email: email,
         state: state,
+        password: password,
     };
 
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", "response.json", true); // Changed to POST
+    xhr.open("POST", "response.json", true); // Changed to POST
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8"); // Correct Content-Type for POSTing JSON
 
     xhr.onload = function() { // Use onload for cleaner event handling
