@@ -121,60 +121,6 @@ footer {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 360px) {
-  body {
-    font-size: 16px;
-    padding: 0 10px;
-  }
-
-  #wrapper {
-    width: 100%;
-    padding: 0 10px;
-  }
-
-  header {
-    width: 100%;
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    width: 100%;
-    margin: 20px auto;
-    font-size: 20px;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px 0;
-  }
-
-  nav a {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  table.tab {
-    width: 100%;
-    font-size: 14px;
-    overflow-x: auto;
-    display: block;
-  }
-
-  figure {
-    width: 100%;
-  }
-
-  .bgimage {
-    object-fit: cover;
-  }
-}
 
 .hometext{
   background-color:rgb(233, 233, 233);
@@ -235,7 +181,6 @@ h3{
 }
 
 .mainconttext{
-  margin-top: 40px;
   background-color: #e0e0e0;
   height: 250px;
   margin: 30px;
@@ -244,7 +189,116 @@ h3{
   border-radius: 30px;
 }
 
-h3{
+.welcome{
   font-size: 30px;
   color: rgb(224, 171, 26);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  #wrapper {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  header {
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+
+  .title {
+    font-size: 36px;
+    word-break: break-word;
+    margin: 10px 0;
+  }
+
+  h2 {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .hometext {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  figure {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .news {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .maincont {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mascot {
+    width: 80%;
+    max-width: 250px;
+    margin: 20px 0;
+  }
+
+  .mainconttext {
+    margin: 20px 10px;
+    padding: 20px;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+
+  table.tab {
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+
+  h3 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .nl {
+    margin-left: 0;
+    text-align: center;
+  }
 }

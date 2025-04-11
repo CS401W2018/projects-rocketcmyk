@@ -65,7 +65,7 @@ nav a{
     text-decoration: none;
     box-shadow: 5px 5px 10px #161616;
     margin-top: 0px;
-    margin-bottom: 30px;
+
   
     
 }
@@ -166,90 +166,11 @@ nav a.current{
     
 }
 
-@media only screen and (max-width: 360px) {
 
-    body {
-        font-size: 16px;
-        padding: 0 10px;
-        overflow-x: hidden;
-    }
-
-    #wrapper {
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    header {
-        width: 100%;
-        padding: 20px 10px;
-        text-align: center;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-
-    .title {
-        font-size: 32px;
-        word-wrap: break-word;
-    }
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        margin-top: 20px;
-    }
-
-    nav a {
-        width: 100%;
-        margin: 0;
-        padding: 12px;
-        font-size: 16px;
-    }
-
-    h2 {
-        width: 100%;
-        margin: 20px 0;
-        font-size: 20px;
-        padding: 10px;
-    }
-
-    .pagedesc {
-        padding: 15px;
-        font-size: 16px;
-    }
-
-    figure {
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .photos {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0;
-        gap: 20px;
-        align-items: center;
-    }
-
-    .photo, .photo5, .photo8 {
-        margin-left: 0;
-        width: 90%;
-        max-width: 300px;
-    }
-
-    footer {
-        text-align: center;
-        padding: 20px 10px;
-        font-size: 14px;
-    }
-
-}
 
 .links{
     text-decoration: none;
+    color:rgb(167, 123, 1)
 }
 
 .images {
@@ -272,6 +193,7 @@ nav a.current{
     display: flex;
     justify-content: center;
     gap: 10px;
+   
     
   }
 
@@ -280,3 +202,201 @@ nav a.current{
     text-align: center;
     color: rgb(244, 195, 62);
   }
+
+  .bookdesc{
+    color: aliceblue;
+  }
+
+  .maincont{
+    display: flex;
+  }
+  
+  .mascot{
+    width: 300px;
+    border-radius: 120px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 10px #202020;
+  }
+  
+  .mainconttext{
+    background-color: #e0e0e0;
+    height:auto;
+    padding: 30px;
+    border-radius: 30px;
+  }
+
+  .welcome{
+    font-size: 30px;
+    color: rgb(224, 171, 26);
+  }
+
+.magni{
+    float: right;
+
+}
+
+.cover{
+    border-radius: 30px;
+}
+
+
+.form-row{
+    display:flex;
+    gap:10px;
+    margin: 10px 0;
+    
+
+}
+.radio-row{
+    display: flex;
+    gap:10px;
+    text-align: right;
+}
+.form-row label{
+    width: 150px;
+    text-align:right;
+    
+    
+}
+.form-space{
+    width:150px;
+    text-align: right;
+}
+fieldset{
+    background-color:rgb(36, 36, 68);
+    color:aliceblue;
+    padding: 10px 20px;
+    border-radius: 30px;
+    
+}
+.form-row input{
+    padding: 10px 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:none
+}
+
+.form-row input[type="submit"]{
+   
+    padding:10px;
+    border: 0cap;
+    background-color:rgb(224, 171, 26);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 0 10px;
+
+    }
+
+    #wrapper {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .title {
+        font-size: 36px;
+        word-break: break-word;
+        margin: 10px 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    nav a {
+        width: 90%;
+        margin: 0;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    h2 {
+        width: 100%;
+        margin: 20px 0;
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .pagedesc {
+        padding: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    figure {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .photos,
+    .images,
+    .books {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin: 0 auto;
+    }
+
+    .photo,
+    .photo5,
+    .photo8,
+    .book {
+        margin-left: 0;
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .maincont {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mascot {
+        width: 80%;
+        max-width: 250px;
+        margin: 20px 0;
+    }
+
+    .mainconttext {
+        padding: 20px;
+    }
+
+    .form-row,
+    .radio-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-row label,
+    .form-space {
+        width: auto;
+        text-align: left;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+}

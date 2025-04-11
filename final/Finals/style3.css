@@ -163,11 +163,10 @@ figure {
     background-color: rgb(225, 217, 208);
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 600px) {
     body {
         padding: 0 10px;
         font-size: 16px;
-        overflow-x: hidden;
     }
 
     #wrapper {
