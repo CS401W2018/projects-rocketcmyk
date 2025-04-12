@@ -27,10 +27,12 @@ nav a{
 .imgs{
     display: flex;
     flex-direction: row;
+
 }
 
 .imgrow{
     margin: 10px;
+    flex-direction: column;
 
     
 }
@@ -48,8 +50,8 @@ nav a{
 
 .links{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4,auto)
+    grid-template-columns: repeat(6, 1fr);
+
 }
 
 
